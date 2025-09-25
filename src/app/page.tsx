@@ -49,9 +49,9 @@ export default function Home() {
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy3D
           steps={[
-            { position: "Step 1", image: "/images/placeholder1.avif", title: "Connect Wallet", description: "Connect your crypto wallet to the app.", isCenter: false },
-            { position: "Step 2", image: "/images/placeholder2.avif", title: "Select Token", description: "Choose the token you want to buy.", isCenter: true },
-            { position: "Step 3", image: "/images/placeholder3.avif", title: "Confirm Purchase", description: "Finalize your purchase and enjoy!", isCenter: false }
+            { position: "left", image: "/images/placeholder1.avif", title: "Connect Wallet", description: "Connect your crypto wallet to the app.", isCenter: false },
+            { position: "center", image: "/images/placeholder2.avif", title: "Select Token", description: "Choose the token you want to buy.", isCenter: true },
+            { position: "right", image: "/images/placeholder3.avif", title: "Confirm Purchase", description: "Finalize your purchase and enjoy!", isCenter: false }
           ]}
         />
       </div>
