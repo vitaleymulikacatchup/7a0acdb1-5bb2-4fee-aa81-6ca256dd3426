@@ -71,7 +71,6 @@ export default function Home() {
           logoSrc="/images/logo.svg"
           logoAlt="Peak Logo"
           logoText="Peak"
-          copyrightText="© 2023 Peak. All rights reserved."
           columns={[
             {
               items: [
